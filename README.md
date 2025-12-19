@@ -6,6 +6,7 @@ The **AI Interview Question Generator** is a Streamlit-based web application tha
 
 ## 🎯 Project Objective
 The primary objective of this project is to reduce the manual effort involved in analyzing resumes and preparing interview questions. The system focuses on:
+
 ✔ Extracting meaningful information from resumes  
 ✔ Identifying relevant technical skills  
 ✔ Automatically generating skill-based interview questions  
