@@ -1,6 +1,16 @@
 import streamlit as st
 from resume_parser import get_resume_text
 from question_generator import extract_skills, generate_questions
+#import streamlit as st
+
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}     /* Hides GitHub + Menu */
+    header {visibility: hidden;}        /* Hides top bar */
+    footer {visibility: hidden;}        /* Hides “Made with Streamlit” */
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.title("AI Interview Question Generator")
 
@@ -25,3 +35,4 @@ if uploaded_file:
             st.write("➡️", q)
     else:
         st.warning("No matching skills found")
+
