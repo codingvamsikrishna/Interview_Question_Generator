@@ -80,11 +80,10 @@ Whenever any of these skills are found in the resume, relevant interview questio
 🔹 Storage and analytics of interview results  
 
 ---
----
 
 🚀 Live Demo
 Access the live application here 👇
-[https://YOUR_STREAMLIT_LINK_HERE](https://interviewquestiongenerator-8vkt9jkmsosperhfxfj4f2.streamlit.app/)
+(https://interviewquestiongenerator-8vkt9jkmsosperhfxfj4f2.streamlit.app/)
 
 ---
   
